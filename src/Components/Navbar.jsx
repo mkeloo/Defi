@@ -17,11 +17,19 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="hidden md:flex ">
-          <ul className="flex text-white items-center">
-            <li>Platform</li>
-            <li>Developers</li>
-            <li>Community</li>
-            <li>About</li>
+          <ul className="flex text-white items-center ">
+            <li className="duration-300 hover:ring-4 ring-sky-400 hover:scale-110">
+              Platform
+            </li>
+            <li className="duration-300 hover:ring-4 ring-sky-400 hover:scale-110">
+              Developers
+            </li>
+            <li className="duration-300 hover:ring-4 ring-sky-400 hover:scale-110">
+              Community
+            </li>
+            <li className="duration-300 hover:ring-4 ring-sky-400 hover:scale-110">
+              About
+            </li>
             <button className="ml-4">Use DEFI</button>
           </ul>
         </div>
